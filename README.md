@@ -4,7 +4,7 @@ Quickly setup a basic node server
 
 ### Application Stack ######
 
-- [NodeJS](http://www.nodejs.org)
+- [Node.js](http://www.nodejs.org)
 
 - [Express](http://www.expressjs.com/)
 
