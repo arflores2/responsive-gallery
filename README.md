@@ -8,6 +8,8 @@ Quickly setup a basic node server
 
 - [Express](http://www.expressjs.com/)
 
+- [Jade](http://jade-lang.com/)
+
 ### Node Dependencies ######
 
     cd server
