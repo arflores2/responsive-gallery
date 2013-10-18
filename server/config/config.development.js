@@ -4,7 +4,7 @@ config.HOST = 'localhost/';
 
 config.PORT.HTTP = '8080'
 
-// paths
+// paths, relative to this location
 config.PUBLIC_PATH = __dirname + '/../../client';
 
 module.exports = config;

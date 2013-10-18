@@ -1,1 +1,1 @@
-angular.module('node-angular', []);
+angular.module('responsive-gallery', []);

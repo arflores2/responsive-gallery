@@ -2,11 +2,10 @@ extend layout
 
 block styles
 
-
 block scripts
   script(src="app/app.js")
-  script(src="app/NodeAngularCtrl.js")
+  script(src="app/ResponsiveGalleryCtrl.js")
 
 block content
-  div(ng-app="node-angular", ng-controller="NodeAngularCtrl")
+  div(ng-app="responsive-gallery", ng-controller="ResponsiveGalleryCtrl")
     h1 {{app.name}}
