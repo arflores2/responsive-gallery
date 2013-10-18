@@ -10,6 +10,12 @@ Quickly setup a basic node server
 
 - [Jade](http://jade-lang.com/)
 
+- [Angular 1.1.1](http://angularjs.org/)
+
+- [jQuery 1.10.2](jquery.com)
+
+- [Bootstrap 3](http://getbootstrap.com/)
+
 ### Node Dependencies ######
 
     cd server
