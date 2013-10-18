@@ -1,6 +1,6 @@
-# Node Basic Skeleton #
+# Node Angular Skeleton #
  
-Quickly setup a basic node server
+Quickly setup a Node server with Angular front end.
 
 ### Application Stack ######
 
