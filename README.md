@@ -14,6 +14,10 @@ One Page Demo Gallery in Angular
 
 - [jQuery 1.10.2](jquery.com)
 
+### Static Files ######
+
+There is a static `index.html` file in the `client` directory to run the app on a seperate web server or it can be viewed in a browser.
+
 ### Node Dependencies ######
 
     cd server
