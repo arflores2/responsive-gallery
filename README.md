@@ -27,3 +27,11 @@ There is a static `index.html` file in the `client` directory to run the app on 
 
     # in server/
     node server.js
+
+### Changing Content #####
+
+You can add/remove/edit slides in `client/app/ResponsiveGalleryCtrl.js`. Notice `$scope.mobile`
+corresponds to the mobile section while `$scope.desktop` corresponds to the desktop section.
+
+You can add another section by copying the `<rgsection></rgsection>`. The attribute values
+correspond the to $scope.{name} JSON.
