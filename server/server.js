@@ -20,7 +20,8 @@ app.configure(function() {
 });
 
 app.get('/', DefaultRoutes.index);
-app.get('/transition', DefaultRoutes.transition);
+app.get('/html', DefaultRoutes.html);
 
 server.listen(cfg.PORT.HTTP);
 console.log('Listening on port: ', cfg.PORT.HTTP);
+console.log('Visit http://localhost:' + cfg.PORT.HTTP);

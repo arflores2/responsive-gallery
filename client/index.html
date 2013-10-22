@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Gallery</title>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/rg-gallery-section.css"/>
+    <link rel="stylesheet" href="assets/css/responsive-gallery.css"/>
+
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.1/angular.js"></script>
+    <script src="vendor/js/ui-bootstrap-tpls-0.6.0.js"></script>
+
+    <script src="app/lib/rg-gallery-section/index.js"></script>
+    <script src="app/lib/common/Transition.js"></script>
+    <script src="app/lib/rg-gallery-section/rgSection.js"></script>
+    <script src="app/lib/rg-gallery-section/rgCarousel.js"></script>
+    <script src="app/lib/rg-gallery-section/rgSlide.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/ResponsiveGalleryCtrl.js"></script>
+  </head>
+</html>
+
+<body class="rg-body">
+  <div class="rg-banner">
+    <div class="rg-logo">Responsive Gallery</div>
+  </div>
+  <div ng-app="responsive-gallery" ng-controller="ResponsiveGalleryCtrl" class="rg-container">
+    <rgsection auto-increment="mobile.autoIncrement" description-class="mobile.description.cls" description-title="mobile.description.title" description-text="mobile.description.text" slides="mobile.slides" class="rg-mobile"></rgsection>
+    <rgsection auto-increment="desktop.autoIncrement" description-class="desktop.description.cls" description-title="desktop.description.title" description-text="desktop.description.text" slides="desktop.slides" class="rg-desktop"></rgsection>
+  </div>
+</body>

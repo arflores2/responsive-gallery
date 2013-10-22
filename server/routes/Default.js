@@ -4,12 +4,13 @@ module.exports = function() {
     res.render('index.jade');
   }
 
-  function transition(req, res) {
-    res.render('transition.jade');
+  function html(req, res) {
+    console.log(__dirname);
+    res.redirect('index.html'); 
   }
 
   return {
     index: index,
-    transition: transition
+    html: html
   }
 }
