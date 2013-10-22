@@ -1,1 +1,1 @@
-angular.module('responsive-gallery', []);
+angular.module('responsive-gallery', ['rg.gallery.section']);

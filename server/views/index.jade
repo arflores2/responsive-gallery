@@ -1,11 +1,54 @@
 extend layout
 
 block styles
+  //- lib 
+  link(rel="stylesheet", href="assets/css/rg-gallery-section.css")
+
+  //- app
+  link(rel="stylesheet", href="assets/css/responsive-gallery.css")
 
 block scripts
+  //- lib
+  script(src="app/lib/rg-gallery-section/index.js")
+  script(src="app/lib/common/Transition.js")
+  script(src="app/lib/rg-gallery-section/rgSection.js")
+  script(src="app/lib/rg-gallery-section/rgCarousel.js")
+  script(src="app/lib/rg-gallery-section/rgSlide.js")
+
+  //- app
   script(src="app/app.js")
   script(src="app/ResponsiveGalleryCtrl.js")
 
+
 block content
-  div(ng-app="responsive-gallery", ng-controller="ResponsiveGalleryCtrl")
-    h1 {{app.name}}
+  body.rg-body
+
+    div(class="rg-banner")
+      div(class="rg-logo") Responsive Gallery
+
+
+    div(class="rg-container", ng-app="responsive-gallery", ng-controller="ResponsiveGalleryCtrl")
+
+      //- Mobile
+      rgsection(
+        class="rg-mobile",
+        auto-increment="mobile.autoIncrement", 
+
+        description-class="mobile.description.cls",
+        description-title="mobile.description.title",
+        description-text="mobile.description.text",
+
+        slides="mobile.slides"
+      )
+
+      //- Desktop
+      rgsection(
+        class="rg-desktop",
+        auto-increment="desktop.autoIncrement", 
+
+        description-class="desktop.description.cls",
+        description-title="desktop.description.title",
+        description-text="desktop.description.text",
+
+        slides="desktop.slides"
+      )

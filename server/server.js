@@ -20,6 +20,7 @@ app.configure(function() {
 });
 
 app.get('/', DefaultRoutes.index);
+app.get('/transition', DefaultRoutes.transition);
 
 server.listen(cfg.PORT.HTTP);
 console.log('Listening on port: ', cfg.PORT.HTTP);

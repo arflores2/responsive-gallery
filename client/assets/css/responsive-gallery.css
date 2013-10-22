@@ -1,0 +1,69 @@
+.rg-body {
+  text-align: center;
+
+  color: white;
+}
+
+.rg-banner {
+  width: 100%;
+  height: 156px; 
+}
+
+.rg-container {
+  width: 1072px;
+
+  margin: 0 auto;
+}
+
+.rg-section {
+  height: 632px;
+
+  margin-bottom: 68px;
+}
+
+.rg-section-description {
+  width: 316px;
+  background-color: #1a5152;
+}
+
+.rg-left-description {
+  position: absolute;
+  left: 0;
+  z-index: 200;
+}
+
+.rg-right-description {
+  position: absolute;
+  right: 0;
+  z-index: 100;
+}
+
+.rg-mobile .rg-carousel-viewport,
+.rg-mobile .rg-carousel-slide {
+  width: 306px;
+  height: 612px;  
+
+  padding: 76px;
+}
+
+.rg-mobile .rg-carousel-viewport {
+  left: 35%;
+}
+
+.rg-desktop .rg-carousel-viewport,
+.rg-desktop .rg-carousel-slide {
+  width: 706px;
+  height: 612px;
+
+  padding: 20px;
+}
+
+.rg-desktop .rg-carousel-viewport {
+  left: 0;
+}
+
+
+.rg-carousel .rg-carousel-control {
+  color: black;
+}
+
