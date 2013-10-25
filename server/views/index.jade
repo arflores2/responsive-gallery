@@ -11,6 +11,7 @@ block scripts
   //- lib
   script(src="app/lib/rg-gallery-section/index.js")
   script(src="app/lib/common/Transition.js")
+  script(src="app/lib/common/Scroll.js")
   script(src="app/lib/rg-gallery-section/rgSection.js")
   script(src="app/lib/rg-gallery-section/rgCarousel.js")
   script(src="app/lib/rg-gallery-section/rgSlide.js")
@@ -34,8 +35,11 @@ block content
         class="rg-mobile",
         auto-increment="mobile.autoIncrement", 
 
+        anchor-id="{{mobile.anchorId}}",
+
         description-class="mobile.description.cls",
         description-title="mobile.description.title",
+        description-subtitle="mobile.description.subtitle",
         description-text="mobile.description.text",
 
         slides="mobile.slides"
@@ -43,12 +47,32 @@ block content
 
       //- Desktop
       rgsection(
+        scroll
         class="rg-desktop",
         auto-increment="desktop.autoIncrement", 
 
+        anchor-id="{{desktop.anchorId}}",
+
         description-class="desktop.description.cls",
         description-title="desktop.description.title",
+        description-subtitle="desktop.description.subtitle",
         description-text="desktop.description.text",
 
         slides="desktop.slides"
+      )
+
+      //- Design 
+      rgsection(
+        scroll
+        class="rg-design",
+        auto-increment="design.autoIncrement", 
+
+        anchor-id="{{design.anchorId}}",
+
+        description-class="design.description.cls",
+        description-title="design.description.title",
+        description-subtitle="design.description.subtitle",
+        description-text="design.description.text",
+
+        slides="design.slides"
       )

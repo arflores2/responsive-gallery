@@ -1,7 +1,7 @@
 .rg-body {
   text-align: center;
 
-  color: white;
+  color: #ffffff;
 }
 
 .rg-banner {
@@ -13,6 +13,8 @@
   width: 1072px;
 
   margin: 0 auto;
+
+  overflow: hidden;
 }
 
 .rg-section {
@@ -27,6 +29,20 @@
 
   padding: 15px;
   text-align: left;
+}
+
+h1.rg-section-description-title {
+  font-size: 34px;
+  margin-bottom: 0;
+}
+
+span.rg-section-description-subtitle {
+  font-size: 18px;
+}
+
+.rg-section-description-text {
+  font-size: 18px;
+  margin-top: 20px;
 }
 
 .rg-left-description {
@@ -54,7 +70,10 @@
 }
 
 .rg-desktop .rg-carousel-viewport,
-.rg-desktop .rg-carousel-slide {
+.rg-desktop .rg-carousel-slide,
+
+.rg-design .rg-carousel-viewport,
+.rg-design .rg-carousel-slide {
   width: 706px;
   height: 612px;
 
@@ -65,8 +84,24 @@
   left: 0;
 }
 
+.rg-design .rg-carousel-viewport {
+  left: 30%;
+}
+
+.rg-carousel {
+  background-image: url('/assets/img/bg.png');
+}
 
 .rg-carousel .rg-carousel-control {
   color: black;
+  cursor: pointer;
+}
+
+.rg-carousel-controls-container .rg-carousel-control-left:after {
+  content: url('/assets/img/arrow-left.png');
+}
+
+.rg-carousel-controls-container .rg-carousel-control-right:after {
+  content: url('/assets/img/arrow-right.png');
 }
 

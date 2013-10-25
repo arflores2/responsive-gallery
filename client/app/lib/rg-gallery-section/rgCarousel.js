@@ -18,12 +18,12 @@ angular.module('rg.gallery.section')
 
             /* controls */
             '<div class="rg-carousel-controls-container">' +
-              '<div class="rg-carousel-control rg-carousel-control-left">' +
-                '<span class="rg-carousel-control-left-icon" ng-click="prev()"> < </span>' +
+              '<div class="rg-carousel-control rg-carousel-control-left" ng-click="prev()">' +
+                '<span class="rg-carousel-control-left-icon" ng-click="prev()"></span>' +
               '</div>' +
 
-              '<div class="rg-carousel-control rg-carousel-control-right">' + 
-                '<span class="rg-carousel-control-right-icon" ng-click="next()"> > </span>' +
+              '<div class="rg-carousel-control rg-carousel-control-right" ng-click="next()">' + 
+                '<span class="rg-carousel-control-right-icon"></span>' +
               '</div>' +
             '</div>' +
 

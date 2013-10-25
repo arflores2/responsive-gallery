@@ -6,8 +6,12 @@ angular.module('rg.gallery.section')
       replace: true,
       scope: {
         autoIncrement: '=',
+
+        anchorId: '@',
+
         descriptionClass: '=',
         descriptionTitle: '=',
+        descriptionSubtitle: '=',
         descriptionText: '=',
 
         carouselClass: '=',
@@ -15,9 +19,10 @@ angular.module('rg.gallery.section')
       },
 
       template: 
-        '<div class="rg-section">' +
+        '<div id="{{anchorId}}" class="rg-section">' +
           '<div class="rg-section-description {{descriptionClass}}">' +
             '<h1 class="rg-section-description-title">{{descriptionTitle}}</h1>' + 
+            '<span class="rg-section-description-subtitle">{{descriptionSubtitle}}</span>' + 
             '<div class="rg-section-description-text">{{descriptionText}}</div>' +
           '</div>' +
 
