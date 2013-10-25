@@ -25,7 +25,7 @@ There is a static `index.html` file in the `client` directory to run the app on 
 
 ### Launch ######
 
-    # in server/
+    cd server
     node server.js
 
 ### Changing Content #####
