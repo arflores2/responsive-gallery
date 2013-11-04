@@ -31,7 +31,7 @@ angular.module('rg.gallery.section', ['ui.common.transition'])
 
       $scope.min = true;
 
-      if(slides.length == 1) {
+      if(slides.length == 0) {
         $scope.max = true;
       }
       else {
