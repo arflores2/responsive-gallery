@@ -97,6 +97,10 @@ span.rg-section-description-subtitle {
   cursor: pointer;
 }
 
+.rg-carousel .rg-carousel-control.disabled {
+  display: none;
+}
+
 .rg-carousel-controls-container .rg-carousel-control-left:after {
   content: url('/assets/img/arrow-left.png');
 }

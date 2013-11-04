@@ -29,6 +29,15 @@ angular.module('rg.gallery.section', ['ui.common.transition'])
           leftOffset = slide.offset || 25,
           newLeft = index*slideWidth + leftOffset;
 
+      $scope.min = true;
+
+      if(slides.length == 1) {
+        $scope.max = true;
+      }
+      else {
+        $scope.max = false;
+      }
+
       $el.css({
         left: newLeft
       });
@@ -52,11 +61,15 @@ angular.module('rg.gallery.section', ['ui.common.transition'])
     };
 
     $scope.next = function() {
-      if(currentIndex == slides.length - 1) {
-        console.log('reached max');
+      if(currentIndex == slides.length - 2) {
+        $scope.max = true;
+      }
+      else if(currentIndex == slides.length - 1) {
+        console.log('reached max'); 
         return;
       }
       currentIndex += 1;
+      $scope.min = false;
 
       angular.forEach(slides, function(slide, index) {
         self.move(slide, 'left');
@@ -64,11 +77,15 @@ angular.module('rg.gallery.section', ['ui.common.transition'])
     };
 
     $scope.prev = function() {
-      if(currentIndex == 0) {
-        console.log('reached min');
+      if(currentIndex == 1) {
+        $scope.min = true;
+      }
+      else if(currentIndex == 0) {
+        console.log("reached min");
         return;
       }
       currentIndex -= 1;
+      $scope.max = false;
 
       angular.forEach(slides, function(slide, index) {
         self.move(slide, 'right');
