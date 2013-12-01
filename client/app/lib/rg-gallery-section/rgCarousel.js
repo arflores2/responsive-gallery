@@ -6,12 +6,12 @@ angular.module('rg.gallery.section')
       replace: true,
       transclude: true,
 
-      template: 
+      template:
         '<div class="rg-carousel">' +
 
-          '<div class="rg-carousel-viewport">' + 
+          '<div class="rg-carousel-viewport">' +
 
-            /* slides */ 
+            /* slides */
             '<div ng-transclude></div>' +
 
             /* controls */
@@ -19,13 +19,13 @@ angular.module('rg.gallery.section')
               '<div class="rg-carousel-control rg-carousel-control-left" ng-click="prev()" ng-class="{\'disabled\': min}" >' +
                 '<span class="rg-carousel-control-left-icon" ng-click="prev()"></span>' +
               '</div>' +
-              '<div class="rg-carousel-control rg-carousel-control-right" ng-click="next()" ng-class="{\'disabled\': max}">' + 
+              '<div class="rg-carousel-control rg-carousel-control-right" ng-click="next()" ng-class="{\'disabled\': max}">' +
                 '<span class="rg-carousel-control-right-icon"></span>' +
               '</div>' +
             '</div>' +
 
 
-          '</div>' + 
+          '</div>' +
 
           
 

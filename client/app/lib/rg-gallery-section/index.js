@@ -17,10 +17,10 @@ angular.module('rg.gallery.section', ['ui.common.transition'])
           borderLeft = parseInt($el.css('borderLeftWidth'), 10),
           borderRight = parseInt($el.css('borderRightWidth'), 10);
 
-      width += paddingLeft + paddingRight; 
+      width += paddingLeft + paddingRight;
       width += marginLeft + marginRight;
       width += borderLeft + borderRight;
-      return width; 
+      return width;
     }
 
     self.addSlide = function(slide, $el) {
@@ -43,7 +43,7 @@ angular.module('rg.gallery.section', ['ui.common.transition'])
       });
 
       angular.extend(slide, { _index: index, _$el: $el, _left: newLeft, _width: slideWidth });
-      slides.push(slide); 
+      slides.push(slide);
     };
 
     self.move = function(slide, direction) {
@@ -65,7 +65,7 @@ angular.module('rg.gallery.section', ['ui.common.transition'])
         $scope.max = true;
       }
       else if(currentIndex == slides.length - 1) {
-        console.log('reached max'); 
+        console.log('reached max');
         return;
       }
       currentIndex += 1;
