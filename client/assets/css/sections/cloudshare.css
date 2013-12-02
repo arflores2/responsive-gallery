@@ -1,0 +1,13 @@
+.rg-cloudshare .rg-carousel-viewport{
+  width: 726px;
+  height: 675px;
+  padding: 79px 20px 20px 12px;
+}
+.rg-cloudshare .rg-carousel-slide {
+  width: 706px;
+  height: 474px;
+  padding: 20px;
+}
+.rg-cloudshare .rg-carousel-viewport {
+  left: 0.5%;
+}

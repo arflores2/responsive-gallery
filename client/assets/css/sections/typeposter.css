@@ -1,0 +1,10 @@
+.rg-typeposter .rg-carousel-viewport,
+.rg-typeposter .rg-carousel-slide {
+  width: 700px;
+  height: 453px;
+  top: 45px;
+  padding: 20px;
+}
+.rg-typeposter .rg-carousel-viewport {
+  left: -5%;
+}

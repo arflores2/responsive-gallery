@@ -1,12 +1,31 @@
+/* Table of Content
+==================================================
+  # Resposive Gallery
+
+  # Section Styles
+  # Description Styles
+  # Carousel Styles
+  # Media Queries */
+
+
+/* # Section Styles
+================================================== */
+
 .rg-section {
   min-height: 400px;
 
   position: relative;
 }
 
+/* # Description Styles
+================================================== */
+
 .rg-section .rg-section-description {
   height: 100%;
 }
+
+/* # Carousel Styles
+================================================== */
 
 .rg-carousel {
   width: 100%;
@@ -58,4 +77,29 @@
 
   transition: 0.6s ease-in-out left;
 }
+
+/* # Media Queries
+================================================== */
+
+  /* Smaller than standard 960 (devices and browsers) */
+  @media only screen and (max-width: 992px) {
+    .rg-section .rg-section-description {
+      width: 100% !important;
+      height: 150px;
+    }
+  }
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+  /* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {}
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) {}
+
+
 

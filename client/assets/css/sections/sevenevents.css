@@ -1,0 +1,14 @@
+.rg-sevenevents .rg-carousel-viewport {
+  width: 726px;
+  height: 445px;
+  top: -4px;
+  padding: 80px 647px 571px 61px;
+}
+.rg-sevenevents .rg-carousel-slide {
+  width: 700px;
+  height: 445px;
+  padding: 20px;
+}
+.rg-sevenevents .rg-carousel-viewport {
+  left: 25%;
+}

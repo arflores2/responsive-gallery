@@ -1,0 +1,13 @@
+.rg-jdeis .rg-carousel-viewport{
+  width: 726px;
+  height: 675px;
+  padding: 79px 20px 20px 12px;
+}
+.rg-jdeis .rg-carousel-slide {
+  width: 706px;
+  height: 477px;
+  padding: 20px;
+}
+.rg-jdeis .rg-carousel-viewport {
+  left: 30%;
+}

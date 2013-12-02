@@ -1,0 +1,14 @@
+.rg-ZapfFrutiger .rg-carousel-viewport {
+  width: 680px;
+  height: 515px;
+  top: 80px;
+  padding: 108px 20px 20px 65px;
+}
+.rg-ZapfFrutiger .rg-carousel-slide {
+  width: 660px;
+  height: 255px;
+  padding: 20px;
+}
+.rg-ZapfFrutiger .rg-carousel-viewport {
+  left: 26%;
+}

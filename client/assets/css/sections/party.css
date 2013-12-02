@@ -1,0 +1,10 @@
+.rg-party .rg-carousel-viewport,
+.rg-party .rg-carousel-slide {
+  width: 406px;
+  height: 712px;  
+  padding: 76px;
+  top: -15px;
+}
+.rg-party .rg-carousel-viewport {
+  left: 35%;
+}

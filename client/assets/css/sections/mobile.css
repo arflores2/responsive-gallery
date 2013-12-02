@@ -1,0 +1,27 @@
+.rg-mobile .rg-carousel-viewport,
+.rg-mobile .rg-carousel-slide {
+  width: 306px;
+  height: 612px;  
+  padding: 76px;
+}
+.rg-mobile .rg-carousel-viewport {
+  left: 35%;
+}
+
+@media only screen and (max-width: 992px) {
+  .rg-mobile .rg-carousel-viewport {
+    left: 25%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 607px) {
+  .rg-mobile .rg-carousel-viewport {
+    left: 10%; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .rg-mobile .rg-carousel-viewport {
+    left: 5%; 
+  }
+}

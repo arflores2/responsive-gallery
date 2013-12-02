@@ -1,0 +1,14 @@
+.rg-docnet .rg-carousel-viewport {
+  width: 700px;
+  height: 463px;
+  top: -4px;
+  padding: 80px 20px 583px 80px;
+}
+.rg-docnet .rg-carousel-slide {
+  width: 700px;
+  height: 463px;
+  padding: 20px;
+}
+.rg-docnet .rg-carousel-viewport {
+  left: -5%;
+}

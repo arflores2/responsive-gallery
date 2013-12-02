@@ -1,0 +1,13 @@
+.rg-calendar .rg-carousel-viewport   {
+  width: 719px;
+  height: 442px;
+  padding: 87px 20px 584px 65px;
+}
+.rg-calendar .rg-carousel-slide {
+  width: 700px;
+  height: 453px;
+  padding: 20px;
+}
+.rg-calendar .rg-carousel-viewport {
+  left: 25%;
+}

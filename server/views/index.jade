@@ -5,6 +5,23 @@ block styles
   link(rel="stylesheet", href="assets/css/rg-gallery-section.css")
 
   //- app
+  
+  //- sections
+  link(rel="stylesheet", href="assets/css/sections/brianne.css")
+  link(rel="stylesheet", href="assets/css/sections/calendar.css")
+  link(rel="stylesheet", href="assets/css/sections/cloudshare.css")
+  link(rel="stylesheet", href="assets/css/sections/design.css")
+  link(rel="stylesheet", href="assets/css/sections/desktop.css")
+  link(rel="stylesheet", href="assets/css/sections/docnet.css")
+  link(rel="stylesheet", href="assets/css/sections/fluteposter.css")
+  link(rel="stylesheet", href="assets/css/sections/grado.css")
+  link(rel="stylesheet", href="assets/css/sections/jdeis.css")
+  link(rel="stylesheet", href="assets/css/sections/mobile.css")
+  link(rel="stylesheet", href="assets/css/sections/party.css")
+  link(rel="stylesheet", href="assets/css/sections/sevenevents.css")
+  link(rel="stylesheet", href="assets/css/sections/typeposter.css")
+  link(rel="stylesheet", href="assets/css/sections/zapffrutiger.css")
+
   link(rel="stylesheet", href="assets/css/responsive-gallery.css")
 
 block scripts
@@ -28,7 +45,7 @@ block content
       div(class="rg-logo") Responsive Gallery
 
 
-    div(class="rg-container", ng-app="responsive-gallery", ng-controller="ResponsiveGalleryCtrl")
+    div(class="rg-container container", ng-app="responsive-gallery", ng-controller="ResponsiveGalleryCtrl")
 
       //- Mobile
       rgsection(
@@ -59,20 +76,4 @@ block content
         description-text="desktop.description.text",
 
         slides="desktop.slides"
-      )
-
-      //- Design 
-      rgsection(
-        scroll
-        class="rg-design",
-        auto-increment="design.autoIncrement", 
-
-        anchor-id="{{design.anchorId}}",
-
-        description-class="design.description.cls",
-        description-title="design.description.title",
-        description-subtitle="design.description.subtitle",
-        description-text="design.description.text",
-
-        slides="design.slides"
       )

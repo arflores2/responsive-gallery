@@ -1,0 +1,10 @@
+.rg-flutePoster .rg-carousel-viewport,
+.rg-flutePoster .rg-carousel-slide {
+  width: 388px;
+  height: 600px;
+  top: 10px;
+  padding: 20px;
+}
+.rg-flutePoster .rg-carousel-viewport {
+  left: 9%;
+}

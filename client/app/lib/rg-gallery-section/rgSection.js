@@ -19,8 +19,9 @@ angular.module('rg.gallery.section')
       },
 
       template: 
-        '<div id="{{anchorId}}" class="rg-section">' +
-          '<div class="rg-section-description {{descriptionClass}}">' +
+        '<div id="{{anchorId}}" class="rg-section row">' +
+
+          '<div class="rg-section-description {{descriptionClass}} five columns">' +
             '<h1 class="rg-section-description-title">{{descriptionTitle}}</h1>' + 
             '<span class="rg-section-description-subtitle">{{descriptionSubtitle}}</span>' + 
             '<div class="rg-section-description-text">{{descriptionText}}</div>' +
